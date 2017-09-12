@@ -1,19 +1,21 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Raphael.SCHNEITER
+ * User: Valentin.PITTET
  * Date: 05.09.2017
- * Time: 14:02
+ * Time: 14:00
  */
 
 // connexion au serveur MySQL et à la BD
 // sortie : $connexion
 function getBD() {
-    $connexion = new PDO('mysql:host=localhost;dbname=epm3;charset=utf8', 'root', '');
-// permet d'avoir plus de détails sur les erreurs retournées
+    $connexion = new PDO('mysql:host=localhost;dbname=rights;charset=utf8', 'root', '');
+    // permet d'avoir plus de détails sur les erreurs retournées
     $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     return $connexion;
+
 }
+
 //Fonction : vérifie le login de l'utilisateur
 //Sortie : résultat de la requête
 function getPwdFromLogin($login)
@@ -27,4 +29,3 @@ function getPwdFromLogin($login)
         return '';
     }
 }
-?>
