@@ -16,6 +16,11 @@ function accueil()
     require "vue/vue_accueil.php";
 }
 
+function contenu_pedagogique()
+{
+    require "Vue/vue_contenu_pedagogique.php";
+}
+
 function login()
 {
     if(isset($_POST) && !empty($_POST['login']) && !empty($_POST['pwd'])) {

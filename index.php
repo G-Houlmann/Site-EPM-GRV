@@ -20,6 +20,10 @@ try
                 login(); //appel de la fonction dans le controleur
                 break;
 
+            case 'contenu_pedagogique':
+                contenu_pedagogique();
+                break;
+
         }
     }
     else
