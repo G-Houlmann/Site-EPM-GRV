@@ -34,7 +34,7 @@
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="#">Document Enseignant</a></li>
-							<li><a href="#">Recettes</a></li>
+							<li><a href="recettes.php">Recettes</a></li>
 							<li><a href="#">Contenu Pédagogique</a></li>
 							<li><a href="#">Photos</a></li>
                             <li><a href="#">Films</a></li>
