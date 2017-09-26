@@ -14,8 +14,9 @@ ob_start();
 ?>
 
 <header>
-    <h2>Plateforme d'échanges de fiches techniques</h2>
+    <h2>Contenu pédagogique</h2>
 </header>
+
 
 
 
