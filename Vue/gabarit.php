@@ -28,17 +28,22 @@
 			<div id="sidebar">
 
 				<!-- Logo -->
-					<h1 id="logo"><a href="#">EPM</a></h1>
+					<h1 id="logo"><a href="index.php?action=welcome">EPM</a></h1>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="#">Document Enseignant</a></li>
 							<li><a href="recettes.php">Recettes</a></li>
+<<<<<<< HEAD
 							<li><a href="index.php?action=contenu_pedagogique">Contenu Pédagogique</a></li>
 							<li><a href="#">Photos</a></li>
+=======
+							<li><a href="#">Contenu Pédagogique</a></li>
+							<li><a href="index.php?action=photo">Photos</a></li>
+>>>>>>> ee92520bef4ddfd64bcaeff3497044e0c8261efb
                             <li><a href="#">Films</a></li>
-                            <li><a href="#">Corbeille</a></li>
+                            <li><a href="index.php?action=corbeille">Corbeille</a></li>
 						</ul>
 					</nav>
 

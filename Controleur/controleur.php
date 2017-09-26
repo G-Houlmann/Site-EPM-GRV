@@ -16,9 +16,20 @@ function accueil()
     require "vue/vue_accueil.php";
 }
 
+<<<<<<< HEAD
 function contenu_pedagogique()
 {
     require "Vue/vue_contenu_pedagogique.php";
+=======
+function photo()
+{
+    require "vue/vue_photo.php";
+}
+
+function corbeille()
+{
+    require  "vue/vue_corbeille.php";
+>>>>>>> ee92520bef4ddfd64bcaeff3497044e0c8261efb
 }
 
 function login()
