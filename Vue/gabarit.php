@@ -28,7 +28,7 @@
 			<div id="sidebar">
 
 				<!-- Logo -->
-					<h1 id="logo"><a href="#">EPM</a></h1>
+					<h1 id="logo"><a href="index.php?action=welcome">EPM</a></h1>
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -36,9 +36,9 @@
 							<li class="current"><a href="#">Document Enseignant</a></li>
 							<li><a href="#">Recettes</a></li>
 							<li><a href="#">Contenu Pédagogique</a></li>
-							<li><a href="#">Photos</a></li>
+							<li><a href="index.php?action=photo">Photos</a></li>
                             <li><a href="#">Films</a></li>
-                            <li><a href="#">Corbeille</a></li>
+                            <li><a href="index.php?action=corbeille">Corbeille</a></li>
 						</ul>
 					</nav>
 

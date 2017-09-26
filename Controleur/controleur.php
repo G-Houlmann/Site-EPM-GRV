@@ -16,6 +16,16 @@ function accueil()
     require "vue/vue_accueil.php";
 }
 
+function photo()
+{
+    require "vue/vue_photo.php";
+}
+
+function corbeille()
+{
+    require  "vue/vue_corbeille.php";
+}
+
 function login()
 {
     if(isset($_POST) && !empty($_POST['login']) && !empty($_POST['pwd'])) {

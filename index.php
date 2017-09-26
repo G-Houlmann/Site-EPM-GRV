@@ -13,13 +13,19 @@ try
             case 'welcome' :
                 accueil(); //appel de la fonction dans le controleur
                 break;
-            default :
-                throw new Exception("action non valide");
+            case 'photo' :
+                photo(); //appel de la fonction dans le controleur
+                break;
 
             case 'login' :
                 login(); //appel de la fonction dans le controleur
                 break;
 
+            case 'corbeille' :
+                corbeille(); //appel de la fonction dans le controleur
+                break;
+            default :
+                throw new Exception("action non valide");
         }
     }
     else
