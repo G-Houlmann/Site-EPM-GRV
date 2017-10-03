@@ -35,6 +35,7 @@
 						<ul>
 							<li class="current"><a href="#">Document Enseignant</a></li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 							<li><a href="#">Recettes</a>
                                 <ul class="nav2">
                                     <li><a href="#">Entremets Froids</a></li>
@@ -54,10 +55,15 @@
 							<li><a href="index.php?action=photo">Photos</a></li>
                             <li><a href="#">Films</a></li>
 =======
+=======
+>>>>>>> 3f58a1ed1762bdd021214c3dbc24561c97a1604c
 							<li><a href="#">Recettes</a></li>
 							<li><a href="index.php?action=contenu_pedagogique">Contenu Pédagogique</a></li>
 							<li><a href="index.php?action=photo">Photos</a></li>
                             <li><a href="index.php?action=film">Films</a></li>
+<<<<<<< HEAD
+>>>>>>> 3f58a1ed1762bdd021214c3dbc24561c97a1604c
+=======
 >>>>>>> 3f58a1ed1762bdd021214c3dbc24561c97a1604c
                             <li><a href="index.php?action=corbeille">Corbeille</a></li>
 						</ul>
