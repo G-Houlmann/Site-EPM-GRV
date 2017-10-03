@@ -50,14 +50,15 @@
                                     <li><a href="#">Sorbets/Glace</a></li>
                                 </ul>
                             </li>
-							<li><a href="#">Contenu Pédagogique</a></li>
-							<li><a href="#">Photos</a></li>
+							<li><a href="index.php?action=contenu_pedagogique">Contenu Pédagogique</a></li>
+							<li><a href="index.php?action=photo">Photos</a></li>
+                            <li><a href="#">Films</a></li>
 =======
 							<li><a href="#">Recettes</a></li>
 							<li><a href="index.php?action=contenu_pedagogique">Contenu Pédagogique</a></li>
 							<li><a href="index.php?action=photo">Photos</a></li>
->>>>>>> 9fbea70308d32eb2d2bec8b84a1b3c844bd570a6
-                            <li><a href="#">Films</a></li>
+                            <li><a href="index.php?action=film">Films</a></li>
+>>>>>>> 3f58a1ed1762bdd021214c3dbc24561c97a1604c
                             <li><a href="index.php?action=corbeille">Corbeille</a></li>
 						</ul>
 					</nav>

@@ -26,7 +26,7 @@ ob_start();
         <li>des informations sur des thèmes culinaires</li>
     </ul>
 
-    Veuillez vous connecter pour avoir accès au site à l'aide du menu "login".
+    Veuillez vous <a href="index.php?action=login">connecter</a>  pour avoir accès au site à l'aide du menu "login".
     </p>
 
 

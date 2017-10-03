@@ -23,6 +23,17 @@ function contenu_pedagogique()
 }
 function photo()
 {
+    if (!empty($_GET['type']))
+    {
+        if($_GET['type']== "grand_chef")
+        {
+            $resultat = getPhotoGrandChef();
+        }
+    }
+    else if ((!empty($_GET['type'])) && (!empty($_GET['annee'])))
+    {
+
+    }
     require "vue/vue_photo.php";
 }
 
@@ -59,3 +70,5 @@ function login()
          }
 
  }
+
+

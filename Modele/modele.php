@@ -12,7 +12,7 @@ function getBD() {
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "mld epm";
+    $dbname = "mld_epm";
     //Connection à la BD project_groupe
     $connexion = new PDO('mysql:host='.$servername.';dbname='.$dbname.';charset=utf8', $username, $password);
     // permet d'avoir plus de détails sur les erreurs retournées
@@ -33,4 +33,15 @@ function getPwdFromLogin($login)
     } else {
         return '';
     }
+}
+
+function getPhotoGrandChef()
+{
+    $connexion = getBD();
+
+    $requete = "SELECT repertoire_principal.chemin, chemin_donnees.path, photo.nom AS nomPhoto, type_photo.nom AS nomType
+                FROM repertoire_principal INNER JOIN chemin_donnees ON idRepertoire_Principal = FkRepertoire_Principal INNER JOIN photo ON
+                idChemin_Donnees = FkCheminDonnees INNER JOIN type_photo ON idType_photo = FkType_Photo
+                WHERE type_photo.nom LIKE \"grand_chef\"";
+    return $requete;
 }

@@ -2139,40 +2139,7 @@
 		#nav li:hover a {
 			background-color: rgba(255, 255, 255, 0.1);
 			color: #fff;
-		}
-
-		ul ul {
-			display: none;
-			position: absolute;
-			left: 140px;
-			top: 0px;
-			margin: 0px;
-			padding: 0px;
-		}
-
-		.nav2 li{
-			list-style-type: none;
-			position: relative;
-			width: 140px;
-			background-color: #272E39;
-			z-index:1;
-		}
-
-		#nav li:hover ul.nav2, li li:hover ul.nav3 {
-			display:block;
 			}
-
-		/*.nav2 li:first-child {
-			border-top:1;
-		}
-
-		.nav2
-		{
-			padding:0;
-			margin:0;
-			list-style:none;
-			width: 180px;
-		}
 
 /* Sidebar */
 
@@ -2305,11 +2272,11 @@
 		position: relative;
 		background-color: #fff;
 		background-image: url("images/bg02.png");
-	}
+		}
 
 		#content > .inner {
 			position: relative;
-			z-index: 1;
+			z-index: 2;
 		}
 
 /* Copyright */

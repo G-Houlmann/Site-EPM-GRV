@@ -26,6 +26,10 @@ try
                 contenu_pedagogique();
                 break;
 
+            case 'film' :
+                film();
+                break;
+
 
             case 'corbeille' :
                 corbeille(); //appel de la fonction dans le controleur
