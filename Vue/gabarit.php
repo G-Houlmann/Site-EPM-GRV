@@ -33,12 +33,14 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
+
 							<li class="current"><a href="#">Document Enseignant</a></li>
 							<li><a href="#">Recettes</a></li>
 							<li><a href="index.php?action=contenu_pedagogique">Contenu Pédagogique</a></li>
 							<li><a href="index.php?action=photo">Photos</a></li>
                             <li><a href="index.php?action=film">Films</a></li>
                             <li><a href="index.php?action=corbeille">Corbeille</a></li>
+
 						</ul>
 					</nav>
 
