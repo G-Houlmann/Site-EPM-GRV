@@ -31,6 +31,11 @@ function corbeille()
     require  "vue/vue_corbeille.php";
 }
 
+function film()
+{
+    require  "vue/vue_film.php";
+}
+
 function login()
 {
     //Affichage de la page de login
