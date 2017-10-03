@@ -11,7 +11,7 @@ $titre ='Plateforme échanges fiches techniques - Film';
 // Tampon de flux stocké en mémoire
 ob_start();
 
-/*function getBD()
+function getBD()
 {
     $servername = "localhost";
     $username = "root";
@@ -25,7 +25,7 @@ ob_start();
 }
 
 
-   try {
+   /*try {
         // On récupère tout le contenu de la table activites
         $sql = "SELECT idFilm, annee, nom FROM Film";
         $reponse = $bdd->query($sql);
@@ -66,6 +66,19 @@ ob_start();
 </header>
 
 <body>
+
+    <h2>Choix de l'année</h2>
+    <select name="select" onchange="updated(this)">
+        <option value="1">1ère Année</option>
+        <option value="2">2ème Année</option>
+        <option value="3">3ème Année</option>
+    </select>
+
+    <select name="select" onchange="updated(this)">
+        <option value="1">Interview grands chefs</option>
+        <option value="2">Applications pratiques</option>
+        <option value="3">Tutoriel</option>
+    </select>
 
     <div class="video"><embed src="C:\Users\Public\Videos\Sample Videos\Faune.wmv" width=900 height=500 loop="false" controller="true" /embed></div>
     <div class="description">

@@ -33,6 +33,7 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
+
 							<li class="current"><a href="#">Document Enseignant</a></li>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,6 +67,7 @@
 =======
 >>>>>>> 3f58a1ed1762bdd021214c3dbc24561c97a1604c
                             <li><a href="index.php?action=corbeille">Corbeille</a></li>
+
 						</ul>
 					</nav>
 
