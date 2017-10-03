@@ -35,37 +35,10 @@
 						<ul>
 
 							<li class="current"><a href="#">Document Enseignant</a></li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-							<li><a href="#">Recettes</a>
-                                <ul class="nav2">
-                                    <li><a href="#">Entremets Froids</a></li>
-                                    <li><a href="#">Entremets Chauds</a></li>
-                                    <li><a href="#">Fiche Service/Cuisine</a></li>
-                                    <li><a href="#">Garniture</a></li>
-                                    <li><a href="#">Hors d'Oeuvres Froids</a></li>
-                                    <li><a href="#">Hors d'Oeuvres Chauds</a></li>
-                                    <li><a href="#">Mignadises</a></li>
-                                    <li><a href="#">Plat Principal</a></li>
-                                    <li><a href="#">Poissons</a></li>
-                                    <li><a href="#">Potages</a></li>
-                                    <li><a href="#">Sorbets/Glace</a></li>
-                                </ul>
-                            </li>
-							<li><a href="index.php?action=contenu_pedagogique">Contenu Pédagogique</a></li>
-							<li><a href="index.php?action=photo">Photos</a></li>
-                            <li><a href="#">Films</a></li>
-=======
-=======
->>>>>>> 3f58a1ed1762bdd021214c3dbc24561c97a1604c
 							<li><a href="#">Recettes</a></li>
 							<li><a href="index.php?action=contenu_pedagogique">Contenu Pédagogique</a></li>
 							<li><a href="index.php?action=photo">Photos</a></li>
                             <li><a href="index.php?action=film">Films</a></li>
-<<<<<<< HEAD
->>>>>>> 3f58a1ed1762bdd021214c3dbc24561c97a1604c
-=======
->>>>>>> 3f58a1ed1762bdd021214c3dbc24561c97a1604c
                             <li><a href="index.php?action=corbeille">Corbeille</a></li>
 
 						</ul>
