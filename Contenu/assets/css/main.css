@@ -2141,6 +2141,39 @@
 			color: #fff;
 		}
 
+		ul ul {
+			display: none;
+			position: absolute;
+			left: 140px;
+			top: 0px;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.nav2 li{
+			list-style-type: none;
+			position: relative;
+			width: 140px;
+			background-color: #272E39;
+			z-index:1;
+		}
+
+		#nav li:hover ul.nav2, li li:hover ul.nav3 {
+			display:block;
+			}
+
+		/*.nav2 li:first-child {
+			border-top:1;
+		}
+
+		.nav2
+		{
+			padding:0;
+			margin:0;
+			list-style:none;
+			width: 180px;
+		}
+
 /* Sidebar */
 
 	#titleBar {
