@@ -35,13 +35,18 @@ function getPwdFromLogin($login)
     }
 }
 
-function getPhotoGrandChef()
+function getTypeCorbeille()
 {
     $connexion = getBD();
+    $requete = "SELECT SUBSTRING_INDEX(path,'/',-1) AS 'type', idChemin_Donnees FROM chemin_donnees WHERE path LIKE 'corbeille/%'";
+    $resultats = $connexion->query($requete);
+    return $resultats;
+}
 
-    $requete = "SELECT repertoire_principal.chemin, chemin_donnees.path, photo.nom AS nomPhoto, type_photo.nom AS nomType
-                FROM repertoire_principal INNER JOIN chemin_donnees ON idRepertoire_Principal = FkRepertoire_Principal INNER JOIN photo ON
-                idChemin_Donnees = FkCheminDonnees INNER JOIN type_photo ON idType_photo = FkType_Photo
-                WHERE type_photo.nom LIKE \"grand_chef\"";
-    return $requete;
+function getCorbeille($id)
+{
+    $connexion = getBD();
+    $requete = "SELECT CONCAT(chemin, path, '/', nom) AS chemin_complet, nom FROM repertoire_principal INNER JOIN chemin_donnees ON idRepertoire_Principal=FkRepertoire_Principal  INNER JOIN fichier_corbeille ON idChemin_Donnees=FkChemin_Donnees WHERE FkChemin_Donnees =".$id;
+    $resultats = $connexion->query($requete);
+    return $resultats;
 }

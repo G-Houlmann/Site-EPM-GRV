@@ -8,19 +8,24 @@
     $titre ='Plateforme échanges fiches techniques - Photo';
     // Tampon de flux stocké en mémoire
     ob_start();
-    $t2 = "2 ème année";
+
 ?>
 
     <header>
-        <h2>Photo <?php echo $t2?></h2>
+        <h2>Photo </h2>
     </header>
-    <table>
-        <?php
 
-        ?>
-    </table>
 
-    <img src="/Photos%20Grand%20Chef/Foie-gras.jpg">
+    <form method="post" action="index.php?action=rechercher_photo">
+        <div>
+            <label>Choix du thème</label>
+        </div>
+        <div>
+            <select name="" required>
+                <option idAnnee=""></option>
+            </select>
+        </div>
+    </form>
 
 <?php
 

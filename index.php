@@ -34,6 +34,12 @@ try
             case 'corbeille' :
                 corbeille(); //appel de la fonction dans le controleur
                 break;
+
+            case 'ouvrir_recette' :
+                $nomfichier = $_GET['fichier'];
+                ouvrirFichierRecettes($nomfichier); //appel de la fonction dans le controleur
+                break;
+
             default :
                 throw new Exception("action non valide");
 
