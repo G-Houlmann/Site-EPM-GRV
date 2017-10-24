@@ -23,16 +23,28 @@ function contenu_pedagogique()
 }
 function photo()
 {
+
     require "vue/vue_photo.php";
 }
 
 function corbeille()
 {
-    require  "vue/vue_corbeille.php";
+    if (isset($_POST) && !empty($_POST['id'])) {
+        $resultats = getTypeCorbeille();
+        $resultatsRec = getCorbeille($_POST['id']);
+        require  "vue/vue_corbeille.php";
+    } else {
+        $resultats = getTypeCorbeille();
+        require  "vue/vue_corbeille.php";
+    }
+
 }
 
 function film()
 {
+    $annee = getAnneeFilm();
+    $type = getTypeFilm();
+    $video = getURl();
     require  "vue/vue_film.php";
 }
 
@@ -64,3 +76,25 @@ function login()
          }
 
  }
+
+function ouvrirFichierRecettes($fichier) {
+
+    if (file_exists($fichier)) {
+        ouvrirFichier($fichier);
+    } else {
+        echo "aucun fichier n'existe pour la recette demandée";
+    }
+}
+
+function ouvrirFichier($file) {
+
+    header('Content-Description: File Transfer');
+    header('Content-Type: application/octet-stream');
+    header('Content-Disposition: attachment; filename="'.basename($file).'"');
+    header('Expires: 0');
+    header('Cache-Control: must-revalidate');
+    header('Pragma: public');
+    header('Content-Length: ' . filesize($file));
+    readfile($file);
+}
+

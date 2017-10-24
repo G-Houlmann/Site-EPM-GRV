@@ -36,34 +36,23 @@ ob_start();
 <head>
     <style>
 
+        .titre
+        {
+            margin-bottom: 5px;
+        }
+
         .barre
         {
             width: 70%;
             height: 40px;
-            border-radius: 10px;
+            border-radius: 5px;
+            margin-bottom:20px
         }
 
-        .video
+        #video
         {
-            margin:auto;
-            height:500px;
-            width:900px;
-
-            border-style: solid;
+            margin-top: 50px;
         }
-
-        .description
-        {
-            margin:auto;
-            margin-top:5px;
-            height:60px;
-            widht:900px;
-            padding-left: 5px;
-
-            border-style: hidden;
-        }
-
-
 
     </style>
 </head>
@@ -74,51 +63,44 @@ ob_start();
 
 <body>
 
-
-    <div>
-        <select name="annee" required>
-            <option value=""></option>
-            <?php
-                foreach ($resultatsAnnees as $resultat) :
-                //attention case sensitive!!!
-            ?>
-             <option value="<?= $resultat['libelleAnnee']; ?>"> <?php echo $resultat['libelleAnnee']; ?> </option>
-
-            <?php endforeach ?>
-        </select>
-    </div>
-
-
-    <h2>Titre du film</h2>
-    <span class="barre"></span>
-
-    <h2>Année</h2>
-    <select name="select" onchange="updated(this)" class="barre">
-        <option value="1">1ère Année</option>
-        <option value="2">2ème Année</option>
-        <option value="3">3ème Année</option>
-    </select>
-
-    <h2>Type de film</h2>
-    <select name="select" onchange="updated(this)" class="barre">
-        <option value="1">Interview grands chefs</option>
-        <option value="2">Applications pratiques</option>
-        <option value="3">Tutoriel</option>
-    </select>
-
     <form method="post" action="index.php?action=afficher_film">
+
+    <h2 class="titre">Titre du film</h2>
+    <input class="barre" />
+
+    <h2 class="titre">Année</h2>
+    <select name="annee" required onchange="updated(this)" class="barre">
+        <option value=""></option>
+        <?php
+        foreach ($annee as $resultat) :
+            //attention case sensitive!!!
+            ?>
+        <option value="<?= $resultat['nom']; ?>"> <?php echo $resultat['nom']; ?></option>
+        <?php endforeach ?>
+    </select>
+
+    <h2 class="titre">Type de film</h2>
+    <select name="type" required onchange="updated(this)" class="barre">
+        <option value=""></option>
+        <?php
+        foreach ($type as $resultat) :
+            //attention case sensitive!!!
+            ?>
+        <option value="<?= $resultat['nom']; ?>"> <?php echo $resultat['nom']; ?></option>
+        <?php endforeach ?>
+    </select>
+
+
         <td align="right">
-            <input type="submit" label="Chercher"> </td>
+            <input type="submit" value="Rechercher"> </td>
         <td>
-            <input type="reset" labl="Réinitialliser"> </td>
+            <input type="reset" value="Réinitialliser"> </td>
 
-    <div class="video"><embed src="C:\Users\Public\Videos\Sample Videos\Faune.wmv" width=900 height=500 loop="false" controller="true" /embed></div>
-    <div class="description">
+    </form>
 
-        <p>description...</p>
+        $video = $resultat['lienYouTube'];
 
-    </div>
-
+        <iframe width="560" height="315" src=" . $video . " frameborder="0" allowfullscreen id="video"></iframe>
 </body>
 
 <?php
