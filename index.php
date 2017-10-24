@@ -26,7 +26,7 @@ try
                 contenu_pedagogique();
                 break;
 
-            case 'film' :
+            case 'film':
                 film();
                 break;
 

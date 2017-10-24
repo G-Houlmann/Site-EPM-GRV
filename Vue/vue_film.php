@@ -11,7 +11,7 @@ $titre ='Plateforme échanges fiches techniques - Film';
 // Tampon de flux stocké en mémoire
 ob_start();
 
-function getBD()
+/*function getBD()
 {
     $servername = "localhost";
     $username = "root";
@@ -25,7 +25,7 @@ function getBD()
 }
 
 
-   /*try {
+   try {
         // On récupère tout le contenu de la table activites
         $sql = "SELECT idFilm, annee, nom FROM Film";
         $reponse = $bdd->query($sql);
@@ -35,6 +35,13 @@ function getBD()
 
 <head>
     <style>
+
+        .barre
+        {
+            width: 70%;
+            height: 40px;
+            border-radius: 10px;
+        }
 
         .video
         {
@@ -67,18 +74,43 @@ function getBD()
 
 <body>
 
-    <h2>Choix de l'année</h2>
-    <select name="select" onchange="updated(this)">
+
+    <div>
+        <select name="annee" required>
+            <option value=""></option>
+            <?php
+                foreach ($resultatsAnnees as $resultat) :
+                //attention case sensitive!!!
+            ?>
+             <option value="<?= $resultat['libelleAnnee']; ?>"> <?php echo $resultat['libelleAnnee']; ?> </option>
+
+            <?php endforeach ?>
+        </select>
+    </div>
+
+
+    <h2>Titre du film</h2>
+    <span class="barre"></span>
+
+    <h2>Année</h2>
+    <select name="select" onchange="updated(this)" class="barre">
         <option value="1">1ère Année</option>
         <option value="2">2ème Année</option>
         <option value="3">3ème Année</option>
     </select>
 
-    <select name="select" onchange="updated(this)">
+    <h2>Type de film</h2>
+    <select name="select" onchange="updated(this)" class="barre">
         <option value="1">Interview grands chefs</option>
         <option value="2">Applications pratiques</option>
         <option value="3">Tutoriel</option>
     </select>
+
+    <form method="post" action="index.php?action=afficher_film">
+        <td align="right">
+            <input type="submit" label="Chercher"> </td>
+        <td>
+            <input type="reset" labl="Réinitialliser"> </td>
 
     <div class="video"><embed src="C:\Users\Public\Videos\Sample Videos\Faune.wmv" width=900 height=500 loop="false" controller="true" /embed></div>
     <div class="description">

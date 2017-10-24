@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7f9374-1f1b-45da-b5ca-9f085d9d3c32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLD EPM.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/vue_contenu_pedagogique.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/vue_corbeille.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/vue_photo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLD EPM.mwb" afterPath="$PROJECT_DIR$/MLD EPM.mwb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controleur/controleur.php" afterPath="$PROJECT_DIR$/Controleur/controleur.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Contenu/assets/css/main.css" afterPath="$PROJECT_DIR$/Contenu/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modele/modele.php" afterPath="$PROJECT_DIR$/Modele/modele.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/Film.php" afterPath="$PROJECT_DIR$/Vue/Film.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/gabarit.php" afterPath="$PROJECT_DIR$/Vue/gabarit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/vue_film.php" afterPath="$PROJECT_DIR$/Vue/vue_film.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,32 +31,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-              <folding>
-                <marker date="1507014051947" expanded="true" signature="826:827" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gabarit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue/gabarit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding>
-                <marker date="1507014052103" expanded="false" signature="2708:2714" ph="©" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gabarit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/gabarit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,43 +41,33 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Contenu/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="1977" column="26" lean-forward="false" selection-start-line="1977" selection-start-column="26" selection-end-line="1977" selection-end-column="26" />
+            <state relative-caret-position="49334">
+              <caret line="2902" column="64" lean-forward="true" selection-start-line="2902" selection-start-column="64" selection-end-line="2902" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/main.css">
+      <file leaf-file-name="modele.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modele/modele.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Film.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue/Film.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
-                <element signature="e#6#97#0#PHP" expanded="true" />
-                <marker date="1507012875497" expanded="true" signature="526:561" ph="SELECT idFil... Film" />
+                <marker date="1507014551400" expanded="true" signature="755:821" ph="SELECT idLog... login" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Film.php" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/Film.php">
+      <file leaf-file-name="vue_film.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vue/vue_film.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="509">
+              <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
               <folding>
-                <marker date="1507012875497" expanded="true" signature="526:561" ph="SELECT idFil... Film" />
+                <element signature="e#6#97#0#PHP" expanded="true" />
+                <marker date="1508828089260" expanded="true" signature="735:770" ph="SELECT idFil... Film" />
               </folding>
             </state>
           </provider>
@@ -116,28 +76,48 @@
       <file leaf-file-name="vue_login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue/vue_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
+            <state relative-caret-position="0">
               <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue_accueil.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue/vue_accueil.php">
+      <file leaf-file-name="vue_contenu_pedagogique.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue/vue_contenu_pedagogique.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lienBD.php" pinned="false" current-in-tab="false">
-        <entry file="file://P:/ICT-151 (PHP)/lienBD.php">
+      <file leaf-file-name="vue_photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue/vue_photo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vue_corbeille.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue/vue_corbeille.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controleur.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controleur/controleur.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -146,6 +126,9 @@
     </leaf>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>z-index</find>
+    </findStrings>
     <dirStrings>
       <dir>P:\Projet PHP\Site-EPM-GRV</dir>
     </dirStrings>
@@ -164,10 +147,12 @@
         <option value="$PROJECT_DIR$/vue/gabarit.php" />
         <option value="$PROJECT_DIR$/Vue/recettes.php" />
         <option value="$PROJECT_DIR$/Vue/vue_contenu_pedagogique.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Vue/gabarit.php" />
-        <option value="$PROJECT_DIR$/Modele/modele.php" />
+        <option value="$PROJECT_DIR$/Contenu/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Controleur/controleur.php" />
+        <option value="$PROJECT_DIR$/Modele/modele.php" />
+        <option value="$PROJECT_DIR$/Vue/vue_film.php" />
       </list>
     </option>
   </component>
@@ -177,6 +162,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="d34b4d14-e975-4f98-8bba-0b89b68588df" name="localhost" port="97" />
@@ -184,10 +170,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="12" />
     <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="height" value="1061" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -239,19 +223,24 @@
               <item name="Site-EPM-GRV" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Modele" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Site-EPM-GRV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site-EPM-GRV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Vue" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="content&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="z-index&#9;null&#9;null&#10;content&#9;null&#9;null&#10;contenu&#9;FILE&#9;file://P:/Projet PHP/Site-EPM-GRV/Vue/vue_contenu_pedagogique.php&#10;sidebar&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -363,45 +352,60 @@
       <workItem from="1506409257125" duration="2393000" />
       <workItem from="1506425508648" duration="3840000" />
       <workItem from="1506429684243" duration="3128000" />
+      <workItem from="1507014923380" duration="9810000" />
+      <workItem from="1508826629876" duration="1443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17776000" />
+    <option name="totallyTimeSpent" value="29306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="0" y="0" width="960" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27648306" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31963" sideWeight="0.50208336" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5042373" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.4957627" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31885594" sideWeight="0.49791667" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957035" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19597457" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.5042373" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.4957627" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27648306" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957035" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-    </layout>
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -413,42 +417,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Vue/gabarit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-          <folding>
-            <marker date="1507014052103" expanded="false" signature="2708:2714" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1507014051947" expanded="true" signature="826:827" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controleur/controleur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="75" lean-forward="true" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/vue_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Contenu/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41055">
@@ -468,9 +436,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <marker date="1507014052103" expanded="false" signature="2708:2714" ph="©" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -478,9 +444,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507014051947" expanded="true" signature="826:827" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,9 +488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <marker date="1507014052103" expanded="false" signature="2708:2714" ph="©" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -549,9 +511,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507014051947" expanded="true" signature="826:827" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -595,9 +555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <marker date="1507014052103" expanded="false" signature="2708:2714" ph="©" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -666,6 +624,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://N:/COMMUN/ELEVE/INFO/SI-CA2a/ICT-151/Exercice/lienBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/Film.php" />
+    <entry file="file://P:/ICT-151 (PHP)/Revision/LoginKO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://P:/ICT-151 (PHP)/lienBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Film.php" />
     <entry file="file://$PROJECT_DIR$/Vue/vue_accueil.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -674,84 +655,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/vue_contenu_pedagogique.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://N:/COMMUN/ELEVE/INFO/SI-CA2a/ICT-151/Exercice/lienBD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <marker date="1507014051947" expanded="true" signature="826:827" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modele/modele.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controleur/controleur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/vue_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/vue_corbeille.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/gabarit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <marker date="1507014052103" expanded="false" signature="2708:2714" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/gabarit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Contenu/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="1977" column="26" lean-forward="false" selection-start-line="1977" selection-start-column="26" selection-end-line="1977" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,35 +666,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/vue_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/Film.php">
+    <entry file="file://$PROJECT_DIR$/Contenu/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="49334">
+          <caret line="2902" column="64" lean-forward="true" selection-start-line="2902" selection-start-column="64" selection-end-line="2902" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/vue_contenu_pedagogique.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/vue_corbeille.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/vue_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/vue_photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleur/controleur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modele/modele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
-            <marker date="1507012875497" expanded="true" signature="526:561" ph="SELECT idFil... Film" />
+            <marker date="1507014551400" expanded="true" signature="755:821" ph="SELECT idLog... login" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://P:/ICT-151 (PHP)/Revision/LoginKO.php">
+    <entry file="file://$PROJECT_DIR$/Vue/gabarit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="952">
+          <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Film.php">
+    <entry file="file://$PROJECT_DIR$/Vue/vue_film.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="509">
+          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
           <folding>
-            <marker date="1507012875497" expanded="true" signature="526:561" ph="SELECT idFil... Film" />
+            <element signature="e#6#97#0#PHP" expanded="true" />
+            <marker date="1508828089260" expanded="true" signature="735:770" ph="SELECT idFil... Film" />
           </folding>
         </state>
       </provider>
