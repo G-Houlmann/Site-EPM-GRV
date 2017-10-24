@@ -210,13 +210,10 @@ ENGINE = INNODB;
 CREATE  TABLE IF NOT EXISTS `MLD_EPM`.`Film` (
   `idFilm` INT NOT NULL AUTO_INCREMENT ,
   `annee` INT NULL ,
+  `type` VARCHAR (45) NOT NULL ,
   `nom` VARCHAR(45) NOT NULL ,
-  `FkChemin_Donnees` INT NOT NULL ,
+  `url` VARCHAR(255) NOT NULL ,
   PRIMARY KEY (`idFilm`) ,
-  INDEX `fk_Film_Chemin_Donnees1_idx` (`FkChemin_Donnees` ASC) ,
-  CONSTRAINT `fk_Film_Chemin_Donnees1`
-    FOREIGN KEY (`FkChemin_Donnees` )
-    REFERENCES `MLD_EPM`.`Chemin_Donnees` (`idChemin_Donnees` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = INNODB;
